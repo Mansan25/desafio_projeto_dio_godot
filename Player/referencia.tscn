@@ -1,0 +1,126 @@
+[gd_scene load_steps=5 format=3 uid="uid://tap1f5fq8brr"]
+
+[ext_resource type="Texture2D" uid="uid://cc0tpaec7ka6t" path="res://Addons/Tiny Swords/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="1_pmuaj"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_b6qv8"]
+font_size = 40
+
+[sub_resource type="LabelSettings" id="LabelSettings_4n0ic"]
+font_size = 50
+
+[sub_resource type="LabelSettings" id="LabelSettings_27362"]
+line_spacing = 123.0
+font_size = 50
+
+[node name="Referencia" type="Node2D"]
+
+[node name="Referência" type="Sprite2D" parent="."]
+position = Vector2(522, 292)
+scale = Vector2(0.322917, 0.322917)
+texture = ExtResource("1_pmuaj")
+
+[node name="Actions" type="Label" parent="Referência"]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Idle" type="Label" parent="Referência/Actions"]
+layout_mode = 0
+offset_left = 610.064
+offset_top = -706.064
+offset_right = 699.064
+offset_bottom = -637.064
+text = "Idle"
+label_settings = SubResource("LabelSettings_b6qv8")
+
+[node name="Run_Left" type="Label" parent="Referência/Actions"]
+layout_mode = 0
+offset_left = 600.774
+offset_top = -514.064
+offset_right = 803.774
+offset_bottom = -445.064
+text = "Run Left"
+label_settings = SubResource("LabelSettings_b6qv8")
+
+[node name="Attack_Side_1" type="Label" parent="Referência/Actions"]
+layout_mode = 0
+offset_left = 594.581
+offset_top = -318.967
+offset_right = 899.581
+offset_bottom = -249.967
+text = "Attack Side 1"
+label_settings = SubResource("LabelSettings_b6qv8")
+
+[node name="Attack_Side_2" type="Label" parent="Referência/Actions"]
+layout_mode = 0
+offset_left = 585.29
+offset_top = -136.258
+offset_right = 890.29
+offset_bottom = -67.2577
+text = "Attack Side 2"
+label_settings = SubResource("LabelSettings_b6qv8")
+
+[node name="Attack_Down_1" type="Label" parent="Referência/Actions"]
+layout_mode = 0
+offset_left = 579.097
+offset_top = 58.839
+offset_right = 931.097
+offset_bottom = 127.839
+text = "Attack Down 1"
+label_settings = SubResource("LabelSettings_b6qv8")
+
+[node name="Attack_Down_2" type="Label" parent="Referência/Actions"]
+layout_mode = 0
+offset_left = 579.097
+offset_top = 257.032
+offset_right = 931.097
+offset_bottom = 326.032
+text = "Attack Down 2"
+label_settings = SubResource("LabelSettings_b6qv8")
+
+[node name="Attack_Up_1" type="Label" parent="Referência/Actions"]
+layout_mode = 0
+offset_left = 579.097
+offset_top = 439.742
+offset_right = 858.097
+offset_bottom = 508.742
+text = "Attack Up 1"
+label_settings = SubResource("LabelSettings_b6qv8")
+
+[node name="Attack_Up_2" type="Label" parent="Referência/Actions"]
+layout_mode = 0
+offset_left = 579.097
+offset_top = 631.742
+offset_right = 858.097
+offset_bottom = 700.742
+text = "Attack Up 2"
+label_settings = SubResource("LabelSettings_b6qv8")
+
+[node name="Aftermath" type="Label" parent="Referência"]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="One" type="Label" parent="Referência/Aftermath"]
+layout_mode = 0
+offset_left = -495.484
+offset_top = -802.064
+offset_right = -198.484
+offset_bottom = -733.064
+text = "0            1             2             3            4            5"
+label_settings = SubResource("LabelSettings_4n0ic")
+structured_text_bidi_override_options = [null]
+
+[node name="Two" type="Label" parent="Referência/Aftermath"]
+layout_mode = 0
+offset_left = -606.968
+offset_top = -702.967
+offset_right = -523.968
+offset_bottom = 724.033
+text = "0
+1
+2
+3
+4
+5
+6
+7"
+label_settings = SubResource("LabelSettings_27362")

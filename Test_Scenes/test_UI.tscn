@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1ynenlfgc7o8"]
+
+[ext_resource type="PackedScene" uid="uid://do0525ox3ve30" path="res://UI/game_ui.tscn" id="1_qpano"]
+
+[node name="TestUi" type="Node2D"]
+
+[node name="game_ui" parent="." instance=ExtResource("1_qpano")]
